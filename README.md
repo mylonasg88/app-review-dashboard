@@ -2,6 +2,9 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Deployed version:
+[https://app-store-submission-qq8b.vercel.app/](https://app-store-submission-qq8b.vercel.app/)
+
 ## Getting Started
 
 ```bash
@@ -18,9 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Features
 App keeps in memory Search field, and selected status. It uses cursor for infinite scroll. Data are stored in cached array in memory. That will reset each time server is restarted.
-
-Deployed version:
-
 
 ## Infrastruction
 For _preview_ an array in memory is used to display functionalities/features of the app. Memory is limited to lifespan of the server, each time server restarts, it will reset memory to default __seeds__ in __src/server/db.ts__
