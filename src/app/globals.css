@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+
+.sidebar {
+  background: var(--bg-card);
+  border-right: 1px solid var(--border-light);
+  padding-top: 10px;
+  padding-right: 8px;
+  margin-top: 8px;
+  height: calc(100vh - 80px);
+}
